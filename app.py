@@ -16,6 +16,7 @@ def Stats(summonerName):
     losses = int(stats[0]['losses'])
     winrate = int((wins / (wins + losses)) * 100)
 
+    print()
     print(summonerName,"{",
         "\n Rank:",tier, rank, "-" ,lp, "pl"
         "\n Winrate:", str(winrate) + "%\n"
